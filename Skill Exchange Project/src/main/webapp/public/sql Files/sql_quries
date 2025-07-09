@@ -1,0 +1,13 @@
+create table skillexchangeusers
+(
+firstname varchar(100),
+lastname varchar2(100),
+username varchar2(100),
+email varchar2(100) primary key,
+phonenumber number(10),
+skilltoteach varchar2(100),
+skilltolearn varchar2(100),
+rating number(10),
+profilepic blob
+);
+
